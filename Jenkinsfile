@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Python Script') {
             steps {
-                bat 'python myscript.py'
+                bat 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe myscript.py'
             }
         }
     }
